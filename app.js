@@ -2,7 +2,7 @@ const express = require('express');
 const mongoose = require('mongoose');
 
 // Conectar a MongoDB
-mongoose.connect('mongodb://127.0.0.1:27017/goDB', {
+mongoose.connect('mongodb://mongo:27017/goDB', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 })
